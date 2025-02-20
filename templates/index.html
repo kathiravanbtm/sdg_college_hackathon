@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syllabus Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            font-size: 16px;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        .drive-embed {
+            width: 100%;
+            height: 600px;
+            border: 2px solid #ccc; /* example border style */
+            border-radius: 8px; /* rounded corners */
+          }
+    </style>
+</head>
+<body>
+
+    <h2>Syllabus Creator</h2>
+
+    <button onclick="createFrontCover()">Create Front Cover Syllabus</button>
+    <button onclick="createSubjectSyllabus()">Create Subject Syllabus</button>
+    
+      
+    <script>
+        function createFrontCover() {
+            window.location.href = "/frontform";
+            // Add functionality here
+        }
+
+        function createSubjectSyllabus() {
+            window.location.href = "/syllabusform";
+            // Add functionality here
+        }
+    </script>
+
+</body>
+</html>
